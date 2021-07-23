@@ -1,0 +1,65 @@
+body {
+  background-color: #19192f;
+}
+
+#page {
+  margin: 0 auto;
+  width: 600px;
+  background-color: #19192f;
+}
+
+#game {
+  width: calc(100% - 10px);
+  height: 600px;
+  background-color: white;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#container {
+  width: 593px;
+  float: left;
+  background-color: #222546;
+  border: 1px solid black;
+  padding-left: 5px;
+  margin: 0 auto;
+  text-align: center;
+  padding-right: 5px;
+}
+
+button {
+  height: 200px;
+  background-color: blue;
+  border: 1px solid #aac5c2;
+  font-size: 80px;
+}
+
+#reset,
+#ai,
+#aidifficulty {
+  width: auto;
+  height: 20px;
+  background-color: #fad700;
+  border: 1px solid black;
+  font-size: 12px;
+}
+
+#instructions {
+  background: yellow;
+  width: 600px;
+  height: 600px;
+  z-index: 1;
+  position: absolute;
+  display: none;
+}
+
+h1,
+p,
+div {
+  color: white;
+}
+
+p {
+  margin: auto;
+}

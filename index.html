@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>TTT</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div id="page">
+    
+    <div id="container">
+      <h1>TIC TAC TOE</h1>
+      <div id="score">
+        <h3>It is X's turn</h3>
+        <h3>X : 0 | O : 0</h3>
+      </div>
+      <button id="reset" onclick="newgame()">Reset Game</button>
+      <button id="reset" onclick="resetscore()">Reset Score</button>
+      <button id="ai" onclick="mode()">Ai: On</button>
+      <button id="aidifficulty" onclick="changedifficulty()">Toggle Ai Difficulty: Easy</button>
+
+      <div id="game">
+        <button class="cell" id="a1" onClick="reply_click(this.id)"></button>
+        <button class="cell" id="a2" onClick="reply_click(this.id)"></button>
+        <button class="cell" id="a3" onClick="reply_click(this.id)"></button>
+        <button class="cell" id="b1" onClick="reply_click(this.id)"></button>
+        <button class="cell" id="b2" onClick="reply_click(this.id)"></button>
+        <button class="cell" id="b3" onClick="reply_click(this.id)"></button>
+        <button class="cell" id="c1" onClick="reply_click(this.id)"></button>
+        <button class="cell" id="c2" onClick="reply_click(this.id)"></button>
+        <button class="cell" id="c3" onClick="reply_click(this.id)"></button>
+      </div>
+    </div>
+
+  </div>
+  <script src="ttt.js"></script>
+  <script src="ai.js"></script>
+</body>
+
+</html>
