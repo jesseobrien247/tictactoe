@@ -1,10 +1,10 @@
 //To-do:
 //1. optimise victoryCheck();
-//2. ai difficultys
-//3. ability to add names in message instead of "player x" / "player 0"
-//4.1 make ai move randomly in medium difficutly after the player wins the Game
-//4.2 currently if the player wins, the ai will still move to stop the player from winning the previous round
-//medium difficulty: playing 2 symbols in the bottom row does not trigger the bot to block you
+//2. ability to add names in message instead of "player x" / "player 0"
+//3. ai difficulties
+//3.1 make ai move randomly in medium difficutly after the player wins the Game
+//3.2 currently if the player wins, the ai will still move to stop the player from winning the previous round
+//3.3 medium difficulty: playing 2 symbols in the bottom row does not trigger the bot to block you
 
 //defining global vars
 var button = '',

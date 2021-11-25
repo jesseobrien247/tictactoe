@@ -22,6 +22,7 @@ function easyAi() {
 	}
 }
 
+//Under testing and construction :)
 function mediumAi() {
 	var w = 1;
 	var t = 1;
@@ -103,6 +104,7 @@ function mediumAi() {
 //b1 b2 b3
 //c1 c2 c3
 
+//Will be made using an algorithm one day
 function impossibleAi() {
 	//randomise the ai's move
 	randomcell = 1 + (Math.floor(Math.random() * 9));
